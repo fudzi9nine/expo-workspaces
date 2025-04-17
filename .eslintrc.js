@@ -4,5 +4,12 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error'
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx']
+      }
+    }
   }
 };
