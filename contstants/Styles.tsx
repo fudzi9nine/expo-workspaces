@@ -9,3 +9,8 @@ export const COLORS = {
   RED: '#f51c0c',
   LIGHT_RED: '#ffc8c4'
 };
+
+export const FONTS = {
+  DEFAULT: 'outfit',
+  DEFAULT_BOLD: 'outfitBold'
+};
